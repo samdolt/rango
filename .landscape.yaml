@@ -7,3 +7,4 @@ uses:
 autodetect: yes
 ignore-patterns:
     - ^.*/tests\.py$
+
