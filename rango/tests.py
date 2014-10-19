@@ -24,9 +24,7 @@ class ModelPageTests(TestCase):
         page = Page()
         with self.assertRaises(IntegrityError):
             page.save()
-            page.title = "Hello"
-            page.category = Category(name="Hello")
-            page.
+
     def test_init_method_with_all_arg(self):
         page = Page()
 
