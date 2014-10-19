@@ -6,5 +6,6 @@ uses:
     - django
 autodetect: yes
 ignore-patterns:
-    - ^.*/tests\.py$
+    - ^.*tests\.py$
+
 
